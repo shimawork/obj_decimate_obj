@@ -14,5 +14,5 @@ blenderをpythonスクリプトで起動(macの場合)
 
 ### 「--」以降の引数は以下
 * test.obj ・・・ 元になるobjファイル　　
-* decimated_test.obj ・・・ decimatでポリゴン削減したobjファイル　　
+* decimated_test.obj ・・・ decimatでポリゴン削減するobjファイルの保存先　　
 * 0.3  ・・・ decimateで指定するrate  
