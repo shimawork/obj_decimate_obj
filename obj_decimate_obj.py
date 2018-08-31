@@ -76,7 +76,7 @@ def export_obj( out_file ):
             #print("polygon index:{0:2} ".format(pl.index), end="")
             #print("vertices:", end="")
             #objファイルのfは1始まりなので+1
-            f.write('f '+str(pl.vertices[0]+1)+' '+str(pl.vertices[1]+1)+' '+str(pl.vertices[2]+1))
+            f.write('f '+str(pl.vertices[2]+1)+' '+str(pl.vertices[1]+1)+' '+str(pl.vertices[0]+1))
             f.write('\n')
             '''
             for vi in pl.vertices:
